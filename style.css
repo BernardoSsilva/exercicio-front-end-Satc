@@ -1,116 +1,114 @@
-
-
-
-body{
-    background-color: #121417;
-    padding:1rem;
-    color: white;
+body {
+  background-color: #121417;
+  padding: 1rem;
+  color: white;
 }
 
 h1 {
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    font-size: 1rem;
-    font-family:  'Times New Roman', Times, serif;
-    
+p {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
-    width: 100%;
-    text-align: center;
-    background-color: #00152b;
-    border-bottom: 1px white dashed;
-    border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  text-align: center;
+  background-color: #00152b;
+  border-bottom: 1px white dashed;
+  border-radius: 1rem 1rem 0 0;
 }
 
 .primary-name {
-    color: #5BC0BE;
+  color: #5bc0be;
 }
 
-.second-name{
-    color: #17598C;
+.second-name {
+  color: #17598c;
 }
 .main-container {
-    border-radius: 1rem;
-    border: solid 1px white;
-    background-color: #000F14;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-    height: 90vh;
-    width: 60vw;
-    margin: 0 auto;
+  border-radius: 1rem;
+  border: solid 1px white;
+  background-color: #000f14;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 90vh;
+  width: 60vw;
+  margin: 0 auto;
 }
 
-.message-container{
-    overflow: scroll;
-    overflow-x: hidden;
+.message-container {
+  overflow: scroll;
+  overflow-x: hidden;
 }
-.primary-message, .secondary-message {
-    
-    display: flex;
-    width: auto;
-    margin: 0 0.5rem;
+.primary-message,
+.secondary-message {
+  display: flex;
+  width: auto;
+  margin: 0 0.5rem;
 }
-.primary-message div p{ 
-    border: 1px solid white;
-    border-radius: 10px;
-    max-width: 25rem;
-    background-color: #234363;
-    padding: 0.5rem;
+.primary-message div p {
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 25rem;
+  background-color: #234363;
+  padding: 0.5rem;
+  word-break: break-all;
 }
 
-.secondary-message{
-    justify-content: flex-end;
+.secondary-message {
+  justify-content: flex-end;
 }
-.secondary-message div{
-    text-align: end;
+.secondary-message div {
+  text-align: end;
 }
-.secondary-message div p{
-    border: 1px solid white;
-    border-radius: 10px;
-    max-width: 25rem;
-    background-color: #044383;
-    padding: 0.5rem;
+.secondary-message div p {
+  border: 1px solid white;
+  border-radius: 10px;
+  max-width: 25rem;
+  background-color: #044383;
+  padding: 0.5rem;
+  word-break: break-all;
 }
 
 footer {
-    background-color: #00152b;
-    display: flex;
-    justify-content: space-between;
-    padding: 0.75rem;
-    border-radius: 0 0 1rem 1rem;
-    border-top: white dashed 1px;
+  background-color: #00152b;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-radius: 0 0 1rem 1rem;
+  border-top: white dashed 1px;
 }
 
-footer input{
-    width: 70%;
-    padding: 0.7rem;
-    background-color: transparent;
-    color: white;
-    border-color: white;
-    font-size: 1rem;
-    border-radius: 10px;
-    outline: none;
+footer input {
+  width: 70%;
+  padding: 0.7rem;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none;
 }
 
-footer button{
-    width: 25%;
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    border-radius: 10px;
+footer button {
+  width: 25%;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  border-radius: 10px;
 }
 
-footer button:hover{
-    transition: 0.5s;
-    background-color: #0027a7;
+footer button:hover {
+  transition: 0.5s;
+  background-color: #0027a7;
 }
 
-footer button:active{
-    transition: none;
-    background-color: #000d1a;
+footer button:active {
+  transition: none;
+  background-color: #000d1a;
 }
